@@ -2,7 +2,7 @@
 
 Sums array of objects/numbets via callable function
 
-#Example usage:
+# Example usage:
 Let's assume we have any object of any class with some numeric value inside.
 We have an array of that objects, and we have to calculate a sum of those numeric values.
 
@@ -39,7 +39,7 @@ array_sum_callable($items, function($item){
 
 Result will of course be: 6
 
-####Return Values
+#### Return Values
 
 Returns the sum of values as an integer or float; 0 if the array is empty.
 
