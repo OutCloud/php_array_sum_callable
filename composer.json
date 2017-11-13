@@ -1,0 +1,23 @@
+{
+    "name": "outcloud/php-array-sum-callback",
+    "description": "Calculates sum of elements of array given by callback function",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Grzegorz Lieske",
+            "email": "grzesiu.lieske@gmail.com"
+        }
+    ],
+    "require": {
+      "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OutCloud\\": "./src"
+        },
+        "files": [
+            "/src/php_array_sum_callback.php"
+        ]
+    }
+}
