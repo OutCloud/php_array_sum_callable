@@ -1,6 +1,6 @@
 <?php
 
-use OutCloud\Exception\NotANumberException;
+use OutCloud\Exception\Math\NotANumberException;
 
 /**
  * @param array    $items

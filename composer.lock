@@ -4,8 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d08416d4d890cd5240088e074455569e",
-    "packages": [],
+    "content-hash": "8db1bfa25e1075aac65cd36be0e5fb97",
+    "packages": [
+        {
+            "name": "outcloud/php-core-lib",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OutCloud/outcloud-core.git",
+                "reference": "012624a47059c01aab0cf8a67264541d759f1667"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OutCloud/outcloud-core/zipball/012624a47059c01aab0cf8a67264541d759f1667",
+                "reference": "012624a47059c01aab0cf8a67264541d759f1667",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OutCloud\\": "./src"
+                },
+                "files": [
+                    "/src/php_array_avg_callable.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Grzegorz Lieske",
+                    "email": "grzesiu.lieske@gmail.com"
+                }
+            ],
+            "description": "shared library for outcloud scripts",
+            "time": "2017-11-13T17:49:16+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
