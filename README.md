@@ -43,7 +43,7 @@ Result will of course be: 6
 
 Returns the sum of values as an integer or float; 0 if the array is empty.
 
-#Installation
+# Installation
 
 via Composer:
 
