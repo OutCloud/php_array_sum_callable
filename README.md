@@ -1,6 +1,6 @@
-# php_array_sum_callback
+# php_array_sum_callable
 
-Sums array of objects/numbets via callback function
+Sums array of objects/numbets via callable function
 
 #Example usage:
 Let's assume we have any object of any class with some numeric value inside.
@@ -30,9 +30,9 @@ $items = [
 ];
 ```
 
-Let's use array_sum_callback to calculate sum of that numbers
+Let's use array_sum_callable to calculate sum of that numbers
 ```php
-array_sum_callback($items, function($item){
+array_sum_callable($items, function($item){
     return $item->getValue();
 });
 ```
@@ -48,7 +48,7 @@ Returns the sum of values as an integer or float; 0 if the array is empty.
 via Composer:
 
 ```bash
-composer require outcloud/php-array-sum-callback
+composer require outcloud/php-array-sum-callable
 ```
 
 function will be registered in global namespace.

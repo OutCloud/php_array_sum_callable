@@ -9,7 +9,7 @@ use OutCloud\Exception\NotANumberException;
  * @return int|string
  * @throws NotANumberException
  */
-function array_sum_callback(array $items, callable $func)
+function array_sum_callable(array $items, callable $func)
 {
     $sum = 0;
     foreach ($items as $item) {

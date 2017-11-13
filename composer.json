@@ -1,5 +1,5 @@
 {
-    "name": "outcloud/php-array-sum-callback",
+    "name": "outcloud/php-array-sum-callable",
     "description": "Calculates sum of elements of array given by callback function",
     "type": "library",
     "license": "MIT",
@@ -17,7 +17,7 @@
             "OutCloud\\": "./src"
         },
         "files": [
-            "/src/php_array_sum_callback.php"
+            "/src/php_array_sum_callable.php"
         ]
     }
 }
